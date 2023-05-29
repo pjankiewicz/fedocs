@@ -7,21 +7,23 @@ weight = 3
 
 ## Aggregate functions
 
-| Function name        | Description                                      |
-|----------------------|--------------------------------------------------|
-| `count`              | count                                            |
-| `sum`                | sum                                              |
-| `min`                | minimum                                          |
-| `max`                | maximum                                          |
-| `avg`                | average                                          |
-| `median`             | median                                           |
-| `var`                | variance                                         |
-| `stdev`              | standard deviation                               |
-| `first`              | first value (over the events are sorted by time) |
-| `last`               | last value (over the events are sorted by time)  |
-| `values`             | extracts raw vector of values to be aggregated   |
-| `nth(expression, n)` | returns nth value counting from 0                |
-
+| Function name        | Description                                           |
+|----------------------|-------------------------------------------------------|
+| `count`              | count                                                 |
+| `sum`                | sum                                                   |
+| `min`                | minimum                                               |
+| `max`                | maximum                                               |
+| `avg`                | average                                               |
+| `median`             | median                                                |
+| `var`                | variance                                              |
+| `stdev`              | standard deviation                                    |
+| `first`              | first value (over the events are sorted by time)      |
+| `last`               | last value (over the events are sorted by time)       |
+| `values`             | extracts raw vector of values to be aggregated        |
+| `nth(expression, n)` | returns nth value counting from 0                     |
+| `time_of_last`       | time where the expression was true for the last time  |
+| `time_of_first`      | time where the expression was true for the first time |
+| `avg_days_between`   | average days between expression was true              |
 
 ## Math
 
